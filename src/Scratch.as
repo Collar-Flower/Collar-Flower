@@ -1108,6 +1108,9 @@ public class Scratch extends Sprite {
 		m.addLine();
 		m.addItem('Small stage layout', toggleSmallStage, true, stageIsContracted);
 		m.addItem('Turbo mode', toggleTurboMode, true, interp.turboMode);
+		m.addLine();
+		m.addItem("Invite User");
+		m.addItem("Open Chatroom");
 		addEditMenuItems(b, m);
 		var p:Point = b.localToGlobal(new Point(0, 0));
 		m.showOnStage(stage, b.x, topBarPart.bottom() - 1);
